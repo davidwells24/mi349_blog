@@ -9,3 +9,9 @@ a:visited {
 a:hover {
     opacity: 50%;
 }
+
+img {
+    margin: auto;
+    width: 100%;
+    height: 20vh;
+}
