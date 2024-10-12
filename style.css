@@ -1,13 +1,11 @@
-body {
-    margin: 0;
-    padding: 0;
+a:link {
+    color: none;
 }
 
-.nav_wrapper {
-    display: flex;
-    flex: row;
+a:visited {
+    color: black;
 }
 
-.navigation {
-    justify-content: flex-end;
+a:hover {
+    opacity: 50%;
 }
