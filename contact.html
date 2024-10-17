@@ -32,6 +32,48 @@
         <h2>
             Contact Me
         </h2>
+        <form name="contact" method="post" action="/">
+            <p>
+                <label for="name">
+                    Name:
+                </label>
+                <input type="text" name="name" id="name" placeholder="John Smith">
+            </p>
+            <p>
+                <label for="email">
+                    Email:
+                </label>
+                <input type="email" name="email" id="email" placeholder="user@example.com">
+            </p>
+            <p>
+                <label for="reason">
+                    Reason for contact:
+                </label>
+                <select name="reason" id="reason">
+                    <option>
+                        saying hi
+                    </option>
+                    <option>
+                        looking for a contractor
+                    </option>
+                    <option>
+                        interested in an interview
+                    </option>
+                </select>
+            </p>
+            <p>
+                <label for="comment">
+                    Comment(s):
+                </label>
+            </p>
+            <p>
+                <textarea cols="30" rows="8" name="comment" id="comment">
+                </textarea>
+            </p>
+            <p>
+                <input type="submit">
+            </p>
+        </form>
     </section>
 </body>
 </html>
